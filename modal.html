@@ -1,0 +1,91 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Slide</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h5>Bootstrap Modal</h5>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#largemodal">
+                Large Modal
+            </button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mediummodal">
+                Medium Modal
+            </button>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#smallmodal">
+                Small Modal
+            </button>
+        </div>
+
+        <div class="modal fade" id="largemodal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>Large Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        it is a long established fact that a reader will
+                        be distracted by the readable content of a page
+                        when looking at its layout. the point of using
+                        lorem ipsum is that it has a more or less normal 
+                        distribution of letters, as opposed to using
+                        content here, making it look like readable english.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="mediummodal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4>Large Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        it is a long established fact that a reader will
+                        be distracted by the readable content of a page
+                        when looking at its layout. the point of using
+                        lorem ipsum is that it has a more or less normal 
+                        distribution of letters, as opposed to using
+                        content here, making it look like readable english.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-info">save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="smallmodal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                        <h4>Large Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        it is a long established fact that a reader will
+                        be distracted by the readable content of a page
+                        when looking at its layout. the point of using
+                        lorem ipsum is that it has a more or less normal 
+                        distribution of letters, as opposed to using
+                        content here, making it look like readable english.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-danger">save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
